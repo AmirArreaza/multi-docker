@@ -1,10 +1,11 @@
+language: generic
 sudo: required
 services:
   - docker
 before_install:
   - docker build -t amirarreaza/react-test -f ./client/Dockerfile.dev ./client
 script:
-  - docker run -e CI=true amirarreaza/react-test npm run test
+  - docker run -e CI=true amirarreaza/react-test npm test
 after_success:
   - docker build -t amirarreaza/multi-client ./client
   - docker build -t amirarreaza/multi-nginx ./nginx
