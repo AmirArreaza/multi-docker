@@ -4,7 +4,7 @@ services:
 before_install:
   - docker build -t amirarreaza/react-test -f ./client/Dockerfile.dev ./client
 script:
-  - docker run -e CI=true amirarreaza/react-test npm test -- --coverage
+  - docker run -e CI=true amirarreaza/react-test npm test
 after_success:
   - docker build -t amirarreaza/multi-client ./client
   - docker build -t amirarreaza/multi-nginx ./nginx
