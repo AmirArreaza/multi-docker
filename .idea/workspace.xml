@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0beaec96-f180-488c-b5a4-a16542bc26c8" name="Default Changelist" comment="" />
+    <list default="true" id="0beaec96-f180-488c-b5a4-a16542bc26c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ajaar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ajaar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -49,9 +55,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2021" y="168" key="SettingsEditor" timestamp="1583334235990">
+    <state x="2077" y="180" key="SettingsEditor" timestamp="1583339194254">
       <screen x="1680" y="0" width="1680" height="1020" />
     </state>
-    <state x="2021" y="168" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1583334235990" />
+    <state x="2077" y="180" key="SettingsEditor/1680.0.1680.1020/0.0.1680.1020@1680.0.1680.1020" timestamp="1583339194254" />
   </component>
 </project>
